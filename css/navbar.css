@@ -1,4 +1,5 @@
 .logo-img {
+  width: unset;
   margin: -10px 10px -10px -10px;
   height: 30px;
 }
