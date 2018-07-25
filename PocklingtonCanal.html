@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <title>Pocklington Canal photo gallery. Christopher Jones Photography</title>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+   <link rel="stylesheet" href="css/gallery.css">
+    
+  <script src="js/index.js"></script>    
+
+  <!-- CSS Grid thanks to https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df-->
+  
+</head>
+
+  <body>
+    <header>
+      
+    
+    <!-- nav bar -->
+    
+    <div class="topnav" id="myTopnav">
+    <div class="home"><a href="index.html" class="active"><img class="logo-img" src="images/siteimages/logo.png">Christopher Jones Photography</a>
+    </div>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction2()">Portfolio
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+    <a href="#">Arts & theatre</a>
+    <a href="#">Sports & events</a>
+    <a href="#">Street & urban</a>
+    <a href="#">Commercial</a>
+    <a href="#">Personal projects</a>
+    </div>
+    </div> 
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    </header>
+    
+    
+    <!-- main page content -->
+    <main class="main">
+      <section class="info1">
+        <h2>Pocklington Canal</h2>
+        <br>
+        <p>A few photos taken around Pocklington Canal.</p>
+        <br>
+        <a href="#" class="info-link">Learn more...</a>
+      </section>
+      <!-- image 1 -->
+      <figure class="largewide">
+         <a href="#openModal1"><img class="figure-img" src="https://farm5.staticflickr.com/4319/35103355673_5f75ac035c_k.jpg" alt="Lillies"></a>
+      </figure>
+      
+      <!-- image 2 -->
+      <figure class="largetall">
+         <img class="figure-img" src="https://farm5.staticflickr.com/4303/35742727012_6c7608e781_k.jpg" alt="Tree, reflected">
+      </figure>
+      
+      <!-- image 3 -->
+      <figure class="default">
+         <img class="figure-img" src="https://farm5.staticflickr.com/4279/35780648291_81ff8adbe7_k.jpg" alt="Patrolling">
+      </figure>
+
+      <!-- image 4 -->
+      <figure class="default">
+         <img class="figure-img" src="https://farm5.staticflickr.com/4213/35780650441_09244334f7_k.jpg" alt="No funny moves and nobody has to get hurt">
+      </figure>
+
+      <section class="info2">
+        <h2>The Title</h2>
+        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
+        <a href="#" class="info-link">Learn more...</a>
+      </section>
+      
+      <!-- image 5 -->
+      <figure class="stdwide">
+         <img class="figure-img" src="https://farm5.staticflickr.com/4259/35103361403_1081157b00_k.jpg" alt="Barn owl">
+      </figure>
+
+      <!-- image 6 -->
+      <figure class="stdwide">
+         <img class="figure-img" src="https://farm5.staticflickr.com/4206/35780648671_2dc9dbe033_k.jpg" alt="Female tufted duck">
+      </figure>
+    </main>
+    
+    <!-- first modal -->
+<div id="openModal1" class="modalDialog">
+  
+<div>
+  <a href="#close" title="Close" class="close">X</a>
+  <img class="modalImage"  src="https://farm5.staticflickr.com/4303/35742727012_6c7608e781_k.jpg" alt="Tree, reflected">
+  <p class="modalText">Tree reflected</p>
+	</div>
+  
+</div>
+
+    <footer class="footer"></footer>
+  </body>
+</html>

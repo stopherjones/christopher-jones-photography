@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <title>London Underground photo gallery. Christopher Jones Photography</title>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+   <link rel="stylesheet" href="css/gallery.css">
+    
+  <script src="js/index.js"></script>    
+
+  <!-- CSS Grid thanks to https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df-->
+  
+</head>
+
+  <body>
+    <header>
+      
+    
+    <!-- nav bar -->
+    
+    <div class="topnav" id="myTopnav">
+    <div class="home"><a href="index.html" class="active"><img class="logo-img" src="images/siteimages/logo.png">Christopher Jones Photography</a>
+    </div>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction2()">Portfolio
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+    <a href="#">Arts & theatre</a>
+    <a href="#">Sports & events</a>
+    <a href="#">Street & urban</a>
+    <a href="#">Commercial</a>
+    <a href="#">Personal projects</a>
+    </div>
+    </div> 
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    </header>
+    
+    
+    <!-- main page content -->
+    <main class="main">
+      <section class="info1">
+        <h2>London Underground</h2>
+        <br>
+        <p>A collection of photos from every station in Zone 1 of the London Underground. Because, why not?</p>
+        </section>
+      <!-- image 1 -->
+      <figure class="verywide">
+         <a href="#openModal1"><img class="figure-img" src="images/LondonUnderground/SmallImages/Aldgate_small.jpg" alt="Aldgate station abstract showing the London Underground Roundel against green wall tiles"></a>
+      </figure>
+      
+      <!-- image 2 -->
+      <figure class="stdwide">
+         <a href="#openModal2"><img class="figure-img" src="images/LondonUnderground/SmallImages/Algate_East_small.jpg" alt="Algate East station looking across the tracks to the far platform where people are waiting for the next train"></a>
+      </figure>
+      
+      <!-- image 3 -->
+      <figure class="stdwide">
+         <a href="#openModal3"><img class="figure-img" src="images/LondonUnderground/SmallImages/Angel_small.jpg" alt="Angel Station in a bright, high-key effect, with a solitary man sitting hunched in the foreground"></a>
+      </figure>
+      
+      <!-- image 4 -->
+      <figure class="default">
+      <a href="#openModal4"><img class="figure-img" src="images/LondonUnderground/SmallImages/Baker_Street_1_small.jpg" alt="ALT TEXT"></a>
+      </figure>
+      
+      <!-- image 5 -->
+      <figure class="default">
+      <a href="#openModal4"><img class="figure-img" src="images/LondonUnderground/SmallImages/Baker_Street_2_small.jpg" alt="ALT TEXT"></a>
+      </figure>
+      
+      <!-- image 6 -->
+      <figure class="default">
+      <a href="#openModal4"><img class="figure-img" src="images/LondonUnderground/SmallImages/Baker_Street_3_small.jpg" alt="ALT TEXT"></a>
+      </figure>
+      
+      <!-- image 7 -->
+      <figure class="default">
+      <a href="#openModal4"><img class="figure-img" src="images/LondonUnderground/SmallImages/Baker_Street_4_small.jpg" alt="ALT TEXT"></a>
+      </figure>
+      
+	  <!-- image NN -->
+      <figure class="default">
+         <a href="#openModalNN"><img class="figure-img" src="images/LondonUnderground/SmallImages/FILENAME.jpg" alt="ALT TEXT"></a>
+      </figure>
+
+
+      <section class="info2">
+        <h2>The Title</h2>
+        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
+        <a href="#" class="info-link">Learn more...</a>
+      </section>
+      
+    </main>
+    
+    <!-- first modal -->
+<div id="openModal1" class="modalDialog">
+  
+<div>
+  <a href="#close" title="Close" class="close">X</a>
+  <img class="modalImage"  src="images/LondonUnderground/Aldgate.jpg" alt="Aldgate station abstract showing the London Underground Roundel against green wall tiles">
+  <p class="modalText">Aldgate</p>
+	</div>
+  
+</div>
+
+    <footer class="footer"></footer>
+  </body>
+</html>
