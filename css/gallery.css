@@ -1,0 +1,179 @@
+/* grid styles for medium screen ------------------------------------ */
+@media (min-width: 500px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .info1 {
+     grid-column: span 2;
+     grid-row: span 2;
+  }
+  
+  .info2 {
+    grid-column: span 2;
+  }
+ 
+  .default {
+    grid-row: span 1;
+   grid-column: span 1;
+  }
+ 
+.stdtall {
+    grid-row: span 2;
+  }
+
+.largetall {
+    grid-row: span 2;
+   grid-column: span 2;
+  }
+  
+ .stdwide {
+    grid-column: span 2;
+    }
+
+ .largewide {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .verywide {
+  grid-column: span 2;
+  }
+  
+  }
+
+/* grid styles for larger screens ------------------------------------ */
+@media (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .info1 {
+     grid-column: span 2;
+     grid-row: span 2;
+  }
+  
+  .info2 {
+    grid-column: span 2;
+  }
+  
+ .default {
+   grid-row: span 1;
+   grid-column: span 1;
+  }
+ 
+ .stdtall {
+    grid-row: span 2;
+  }
+  
+  .largetall {
+   grid-row: span 2;
+    grid-column: span 2;
+  }
+  
+  
+ .stdwide {
+    grid-column: span 2;}
+
+ .largewide {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+  
+  .verywide {
+  grid-column: span 4;
+  }
+  
+}
+
+.figure-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info1, .info2 {
+  padding: 40px;
+  background-color: #333;
+  color: white;
+}
+
+.info-link {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+/* format (but hide) the modal background and set transition */
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+/* trigger the modal */
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+/* format the modal box */
+.modalDialog > div {
+	width: 100%;
+  height: 100%;
+	position: relative;
+  background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+/* format the close button */
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 2%;
+	text-align: center;
+	top: 2%;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+/* format the modal text */
+.modalText {
+  text-align: center;
+  padding-bottom: 3%;
+}
+/* format the modal image */
+.modalImage {
+  max-height: 80%;
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+}

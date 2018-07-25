@@ -1,0 +1,22 @@
+/* generic styles ----------------------------------- */
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: unset;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* flex styles -------------------------------------- */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}

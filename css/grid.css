@@ -1,0 +1,62 @@
+/* start grid menu css */
+
+.grid-element {
+  display: block;
+  width: 100%;  
+ }
+
+@media only screen and (min-width:500px) {
+  .img-grid {
+  display: flex;
+    flex-wrap: wrap;
+  }
+.grid-element {
+  width: 50%;
+ }
+}
+
+@media only screen and (min-width:700px) {
+.grid-element {
+  width: 33%;
+ }
+}
+
+
+.thumb {
+  padding: 5px;
+  vertical-align: text-top;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+/* end grid menu css */
+
+/* default to full width blocks on mobile */
+div {
+  display: block;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+ 
+/* images break into rows above 500px */
+@media only screen and (min-width:500px) {
+  .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+img {
+  height: 200px;
+  width: unset;
+  flex-grow: 1;
+  object-fit: cover;
+  margin: 2px;
+}
+
+}
