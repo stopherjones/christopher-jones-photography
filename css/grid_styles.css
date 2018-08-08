@@ -1,8 +1,4 @@
 /* Flex styles -------------------------------------------------*/
-header {
-  display: flex;
-  align-items: center;
-}
 
 @media (min-width: 700px) {
  .leading {
@@ -85,6 +81,9 @@ article {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
   background-color: rgba(255, 255, 255, 0.2);
 }
