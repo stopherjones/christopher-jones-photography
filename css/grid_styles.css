@@ -62,11 +62,10 @@ article {
 .article-title {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  width: 95%;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 5%;
   color: white;
   text-shadow: 0px 0px 5px #000;
   background-color: rgba(0, 0, 0, 0.5);
