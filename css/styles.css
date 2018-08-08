@@ -2,8 +2,15 @@
 body {
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One';
   }
+
+header {
+  padding: 0px;
+  font-size: 2em;
+  color: white;
+  background-color: #333;
+}
 
 h2 {
   font-size: 2em;
