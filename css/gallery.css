@@ -114,6 +114,17 @@
   object-fit: cover;
 }
 
+.logo-footer {
+	margin-top: 35%;
+	margin-bottom: 35%;
+	
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	
+	object-fit: cover;
+}
+
 .info1, .info2, .info3, .info4 {
   padding: 40px;
   background-color: #333;
