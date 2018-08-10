@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <title>Personal photo projects. Christopher Jones Photography</title>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/grid.css">
+<html>
+  <head>
+    <title>Christopher Jones Photography</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-  <script src="js/index.js"></script>    
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
-</head>
+    <link rel="stylesheet" href="css/styles.css">    
+    <link rel="stylesheet" href="css/navbar.css">    
+    <link rel="stylesheet" href="css/grid_styles.css">
 
+    <script src="js/index.js"></script>    
+    
+    <!-- CSS Grid thanks to https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df-->
+    
+  </head>
   <body>
     <header>
-      
     
     <!-- nav bar -->
     
@@ -33,8 +31,9 @@
     <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content" id="myDropdown">
-    <a href="Arts.html">Arts & theatre</a>
-    <a href="Events.html">Sports & events</a>
+    <a href="Arts_and_theatre.html">Arts & theatre</a>
+    <a href="Sports.html">Sports</a>
+    <a href="Events.html">Events</a>
     <a href="Street.html">Street & urban</a>
     <a href="Commercial.html">Commercial</a>
     <a href="Personal.html">Personal projects</a>
@@ -43,41 +42,26 @@
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
     
+    
     </header>
-    
-    
-    <!-- start of main page content -->
-    
-    <!-- flexing grid of 6 items 3 columns on desktop, then 2, then 1 -->
-    
-    <div class="img-grid">
-    
-    <div class="grid-element">
-    <div class="img-label">
-    <a href="London Underground.html"><h3>London Underground</h3></a>
-    </div>
-    <div class="thumb">
-    <a href="LondonUnderground.html"><img src="images/Street.jpg" alt="Street & urban photography"></a>
-    </div>
-    </div>
-    
-    
-    <div class="grid-element">
-    <div class="img-label">
-    <h3>London Monopoly</h3>
-    </div>
-    <div class="thumb">
-    <img src="images/Theatre.jpg" alt="Theatre photography">
-    </div>
-    </div>
-    
-    
-    </div>
-    
-    <!-- end of main page content -->
-    
-    <footer class="footer"></footer>
-  
-</body>
-
+    <main>
+      <section class="leading">
+        <p class="leading-bigtext">Christopher Jones Photography</p>
+        
+      </section>
+      <section class="cards">
+        <a href="LondonUnderground.html"><article>
+          <img class="article-img" src="images/London_Underground_small.jpg" alt=" " />
+          <h1 class="article-title">London Underground</h1>
+        </article></a>
+        <a href="PocklingtonCanal.html"><article>
+          <img class="article-img" src="https://farm5.staticflickr.com/4303/35742727012_6c7608e781_k.jpg" alt=" " />
+          <h1 class="article-title">
+            Pocklington Canal
+          </h1>
+        </article></a>
+        
+      </section>
+    </main>
+  </body>
 </html>
