@@ -136,6 +136,14 @@
   color: #ff9900;
 }
 
+.not-found {
+	object-fit: contain;
+	width: 50%;
+	margin-bottom: 10%;
+	margin-left: 5%;
+	margin-right: 45%;
+}
+
 /* format (but hide) the modal background and set transition */
 .modalDialog {
 	position: fixed;
