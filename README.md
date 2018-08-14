@@ -1,7 +1,6 @@
 # Christopher Jones Photography
 
-https://stopherjones.github.io/christopher-jones-photography/
-
+See it here: https://stopherjones.github.io/christopher-jones-photography/
 
 An attempt to self-build and host a light-weight, modern, responsive photo gallery / portfolio, based on a few key aims and objectives:
 
