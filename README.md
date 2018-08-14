@@ -2,7 +2,7 @@
 
 An attempt to self-build and host a light-weight, modern, responsive photo gallery / portfolio, based on a few key aims and objectives:
 
-1. **Performance**: 'Gallery' pages load small (max 600px) versions of each image in the gallery. 
+1. **Performance**: 'Gallery' pages load small (max 600px) versions of each image in the gallery. No junk. No ads, no tracking, no analytics, no cookies. Mmm...cookies...drool... (no JS - in the backlog) 
 
 2. **High resolution available**: Clicking on each gallery image loads a high resolution, full screen modal image. (Proof of concept DONE. Adding remaining modal images to website still in the backlog)
 
