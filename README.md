@@ -48,7 +48,7 @@ My workflow for this site is roughly as follows:
  
 1. Google whatever it is I'm looking to do - set up a navbar, research photo gallery pages, build a modal etc
 2. Copy their code into codepen.io
-3. Play around in codepen until  I get something I'm happy with
+3. Play around in codepen until I get something I'm happy with
 4. Get wildly out of my depth. Repeat steps 1-3 several times.
 5. Finally export to local Android storage
 6. Create an empty github repository at github.com and clone it to Android using the excellent Pocket Git (https://play.google.com/store/apps/details?id=com.aor.pocketgit)
@@ -56,6 +56,7 @@ My workflow for this site is roughly as follows:
 8. Push to github using Pocket Git
 
 Android's split screen is a big help for multi-tasking. Having a seperate, bluetooth keyboard is a must.
+This approach also means I can add minor changes on the go on my phone - like adding in this sentence ;) 
  
 * Ok, full disclosure...
 I pay for my custom url, but that's it. 
