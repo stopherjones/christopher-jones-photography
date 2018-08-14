@@ -34,7 +34,7 @@ More on points 7 and 8 below.
 
 ## Development and hosting
 
-This site was built and hosted at no cost, and entirely from my Android tablet*.
+This site was built and hosted at no cost, and entirely from my Android tablet\*.
 
 I wanted to build something I could maintain easily and cheaply. I've used a variety of portfolio platforms over the years - Wordpress, Blogger, Zenfolio, Flickr - but none of them give me everything I'm looking for - custom url, free to host, customisable layout etc
 
@@ -59,9 +59,6 @@ Android's split screen is a big help for multi-tasking. Having a seperate, bluet
 This approach also means I can add minor changes on the go on my phone - like adding in this sentence ;) 
  
 \* Ok, full disclosure...
-
-I pay for my custom url, but that's it.
-
-I already own the Android tablet, and Lightroom subscription so I'm not counting those towards the costs. Sunk costs and all that.
-
-I also re-sized the images in Adobe Lightroom for Windows. I tried a few Android re-sizing apps but found either the quality was lacking, or you had to pay to remove watermarks / quantity limits (see objective #7). Lightroom for Android just doesn't have the range of options that the desktop version has. I already owned the Windows device with Adobe Lightroom too, so I'm not counting that as a cost either.
+* I pay for my custom url, but that's it.
+* I already own the Android tablet, and Lightroom subscription so I'm not counting those towards the costs. Sunk costs and all that.
+* I also re-sized the images in Adobe Lightroom for Windows. I tried a few Android re-sizing apps but found either the quality was lacking, or you had to pay to remove watermarks / quantity limits (see objective #7). Lightroom for Android just doesn't have the range of options that the desktop version has. I already owned the Windows device with Adobe Lightroom too, so I'm not counting that as a cost either.
