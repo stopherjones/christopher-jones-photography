@@ -1,5 +1,8 @@
 # Christopher Jones Photography
 
+https://stopherjones.github.io/christopher-jones-photography/
+
+
 An attempt to self-build and host a light-weight, modern, responsive photo gallery / portfolio, based on a few key aims and objectives:
 
 1. **Performance**: 'Gallery' pages load small (max 600px) versions of each image in the gallery. No junk. No ads, no tracking, no analytics, no cookies. Mmm...cookies...drool... (no JS - in the backlog) 
