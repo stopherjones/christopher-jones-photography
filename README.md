@@ -40,7 +40,7 @@ I wanted to build something I could maintain easily and cheaply. I've used a var
 
 Github pages ticks pretty much all those boxes. I think the only thing I'm missing is server-side scripting. Whatever that is. 
  
-I've also pretty much stopped using desktop PCs / laptops outside of work. They're either stuck on one desk, or the battery dies too quickly, or they get too clogged up and slow. I've been using solely an Android tablet for a couple of years now for everything from basic tasks, through to quite sophisticated photo editing and similar tasks. The aim was to do the same building and hosting this site.
+I've also pretty much stopped using desktop PCs / laptops outside of work. They're either stuck on one desk, or the battery dies too quickly, or they get too clogged up and slow. I've been almost exclusively using an Android tablet for a couple of years now for everything from basic tasks, through to quite sophisticated tasks like importing and editing RAW photo files. The aim was to do the same building and hosting this site.
 
 I have next to zero development skills or experience. I say next to no experience, because I have dabbled under the html / css bonnet before. I've even had cause to use the command line interface in anger (sometimes literally, as well as metaphorically) to run package managers and push web content to github. But all I've really done is ~~rip off someone else's work~~ follow instructions from others.
  
