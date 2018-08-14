@@ -14,7 +14,7 @@ An attempt to self-build and host a light-weight, modern, responsive photo galle
 
 6. **Responsive**: Rows and photo cells respond to fill the browser window across mobile / tablet / desktop, and portrait / landscape. Based on CSS-Grid, with pages divided into width fractions. See https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df for explanation and code.
 
-7. **Free to host**: Or as close to free as possible
+7. **Free to host**: Or as close to free as possible. I don't want to make money from this (no ads) but ideally I'd not like it to cost me anything either. It's just a personal portfolio, I want to keep things as free and open as possible. 
 
 8. **Android development**: Everything had to be possible to build and maintain from my Android tablet. 
 
