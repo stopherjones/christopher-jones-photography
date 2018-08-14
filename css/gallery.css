@@ -172,6 +172,7 @@
 
 /* format the close button */
 .close {
+	font-family: arial;
 	background: #606061;
 	color: #FFFFFF;
 	line-height: 25px;
