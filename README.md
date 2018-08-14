@@ -58,8 +58,10 @@ My workflow for this site is roughly as follows:
 Android's split screen is a big help for multi-tasking. Having a seperate, bluetooth keyboard is a must.
 This approach also means I can add minor changes on the go on my phone - like adding in this sentence ;) 
  
-* Ok, full disclosure...
-I pay for my custom url, but that's it. 
-I already own the Android tablet, so I'm not counting that towards the costs. Sunk costs and all that.
-I re-sized the images in Adobe Lightroom for Windows. I tried a few Android re-sizing apps but found either the quality was lacking, or you had to pay to remove watermarks / quantity limits (see objective #7)
-I already owned the Windows device with Adobe Lightroom too, so I'm not counting that as a cost either.
+\* Ok, full disclosure...
+
+I pay for my custom url, but that's it.
+
+I already own the Android tablet, and Lightroom subscription so I'm not counting those towards the costs. Sunk costs and all that.
+
+I also re-sized the images in Adobe Lightroom for Windows. I tried a few Android re-sizing apps but found either the quality was lacking, or you had to pay to remove watermarks / quantity limits (see objective #7). Lightroom for Android just doesn't have the range of options that the desktop version has. I already owned the Windows device with Adobe Lightroom too, so I'm not counting that as a cost either.
