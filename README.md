@@ -64,3 +64,9 @@ This approach also means I can add minor changes on the go on my phone - like ad
 * I pay for my custom url, but that's it.
 * I already own the Android tablet, and Lightroom subscription so I'm not counting those towards the costs. Sunk costs and all that.
 * I also re-sized the images in Adobe Lightroom for Windows. I tried a few Android re-sizing apps but found either the quality was lacking, or you had to pay to remove watermarks / quantity limits (see objective #7). Lightroom for Android just doesn't have the range of options that the desktop version has. I already owned the Windows device with Adobe Lightroom too, so I'm not counting that as a cost either.
+
+## Credits and thanks
+
+* Jo Franchetti, for the intro to CSS grids: https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df
+* W3 Schools, for the basic info and tutorials, especially styling and the nav bar https://www.w3schools.com
+* Kevan Worrall, for the shutter-rose logo icon https://kevanworrall.myportfolio.com  
