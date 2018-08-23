@@ -21,6 +21,16 @@ header {
 
 }
 
+.no-cookies {
+	width: 100%;
+}
+
+@media (min-width: 700px) {
+.no-cookies {
+	max-width: 60%;
+}
+}
+
 .footer-link {
   text-decoration: none;
   color: #ff9900;
