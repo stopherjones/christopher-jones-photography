@@ -25,13 +25,12 @@ More on points 7 and 8 below.
 
 ## Backlog
 
+- Compatibility for older browsers
 - Intrinsic placeholders
 - Modal accessibility
 - Remaining modal images
 - HTML / CSS navbar
-- 404 page
-- Centralised navbar (Jekyll?)
-- Compatibility for older browsers (low priority)
+- Centralised navbar / footer (Jekyll?)
 
 
 ## Development and hosting
