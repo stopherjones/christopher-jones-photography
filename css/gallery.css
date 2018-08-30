@@ -138,7 +138,8 @@
 
 .not-found {
 	object-fit: contain;
-	width: 50%;
+	width: 60%;
+	padding-top: 10%;
 	margin-bottom: 10%;
 	margin-left: 5%;
 	margin-right: 45%;
