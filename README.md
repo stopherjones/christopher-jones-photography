@@ -6,15 +6,15 @@ An attempt to self-build and host a light-weight, modern, responsive photo galle
 
 1. **Performance**: 'Gallery' pages load small (max 600px) versions of each image in the gallery. No junk. No ads, no tracking, no analytics, no cookies. Mmm...cookies...drool... (no JS - in the backlog) 
 
-2. **High resolution available**: Clicking on each gallery image loads a high resolution, full screen modal image. (one page done as proof of concept - https://stopherjones.github.io/christopher-jones-photography/Arts_and_theatre.html. Adding remaining modal images to website still in the backlog)
+2. **Rows, not columns**: I prefer the row-based galleries that you see in Google Photos and Flickr, rather than the vertical card columns in Pinterest or the square grid favoured by Instagram. My aim was to achieve broadly equal height rows, where the images resize to fit the avilable space.
 
-3. **Rows, not columns**: I prefer the row-based galleries that you see in Google Photos and Flickr, rather than the vertical card columns in Pinterest or the square grid favoured by Instagram. My aim was to achieve broadly equal height rows, where the images resize to fit the avilable space.
+3. **Pages do not shunt around**: Intrinsic placeholders - still in the backlog
 
-4. **Pages do not shunt around**: Intrinsic placeholders - still in the backlog
+4. **HTML/CSS by default**: No real philosophical belief behind this, just feels like the more modern thing to do. Gallery pages and modal images use HTML / CSS only. (There is JS for the navbar, HTML / CSS only version in the backlog)
 
-5. **HTML/CSS by default**: No real philosophical belief behind this, just feels like the more modern thing to do. Gallery pages and modal images use HTML / CSS only. (There is JS for the navbar, HTML / CSS only version in the backlog)
+5. **Responsive**: Rows and photo cells respond to fill the browser window across mobile / tablet / desktop, and portrait / landscape. Based on CSS-Grid, with pages divided into width fractions. See https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df for explanation and code.
 
-6. **Responsive**: Rows and photo cells respond to fill the browser window across mobile / tablet / desktop, and portrait / landscape. Based on CSS-Grid, with pages divided into width fractions. See https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df for explanation and code.
+6. **High resolution available**: In the backlog. Clicking on each gallery image loads a high resolution, full screen modal image.
 
 7. **Free to host**: Or as close to free as possible. I don't want to make money from this (no ads) but ideally I'd not like it to cost me anything either. It's just a personal portfolio, I want to keep things as free and open as possible. 
 
@@ -27,8 +27,7 @@ More on points 7 and 8 below.
 
 - Compatibility for older browsers
 - Intrinsic placeholders
-- Modal accessibility
-- Remaining modal images
+- Modal images and accessibility
 - HTML / CSS navbar
 - Centralised navbar / footer (Jekyll?)
 
